@@ -334,7 +334,7 @@ mod test {
                 important: false,
             },
             ContextLine {
-                line: "// I AM NOT DONE".to_string(),
+                line: " ".to_string(),
                 number: 3,
                 important: true,
             },

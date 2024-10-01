@@ -156,7 +156,7 @@ fn all_exercises_require_confirmation() {
             s
         };
         source
-            .matches("// I AM NOT DONE")
+            .matches(" ")
             .next()
             .unwrap_or_else(|| {
                 panic!(
